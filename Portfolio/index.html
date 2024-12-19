@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tilak Ranjan Dhali</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            background-color: #d2d2d0;
+            color: #333;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 20px;
+            background-color: #d2d2d0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #555553;
+        }
+
+        header .subtitle {
+            font-size: 16px;
+            color: #777;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        nav ul li {
+            margin: 10px 0;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #787876;
+            font-size: 18px;
+            font-weight: 550;
+            
+        }
+
+        nav ul li a:hover{
+            color:black;
+        };
+
+        .social-icons {
+            margin: 10px 0;
+        }
+
+        .social-icons a {
+            margin-right: 10px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .social-icons img {
+            width: 40px;
+            height: 40px;
+            margin-right: 5px;
+        }
+
+        .details {
+            font-size: 15px;
+
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .grid img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TILAK RANJAN DHALI</h1>
+        <div class="subtitle">  P H O T O G R A P H Y</div>
+        <nav>
+            <ul>
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a class ="details" href="#">About</a></li>
+                <li><a class ="details" href="#">Learn</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="social-icons">
+            <a href="mailto:tilakranjandhali@live.com" target="_blank" rel="noopener noreferrer" title="Go to Mail page">
+                <img src="icons\mail.png" alt="Email Icon">
+            </a>
+            <a href="https://www.instagram.com/tilakranjandhaliphotography/" target="_blank" rel="noopener noreferrer" title="Go to Instagram page">
+                <img src="icons\ins.png" alt="Instagram Icon">
+            </a>
+            <a href="https://wa.me/+918777268487" target="_blank" rel="noopener noreferrer" title="Chat With Me">
+                <img src="icons\wh.png" alt="Whatsapp Icon">
+            </a>
+            <a href="tel:+918777268487" target="_blank" rel="noopener noreferrer" title="Chat With Me"><img src="icons\call.png" alt="Phone Icon">
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="grid">
+            <img src="images/photo1.jpg" alt="Watermelon drink">
+            <img src="images/photo2.jpg" alt="Luxury pen">
+            <img src="images/photo3.jpg" alt="Noodle bowl">
+            <img src="images/photo4.jpg" alt="Gin and glass">
+            <img src="images/photo5.jpg" alt="Coffee cup">
+            <img src="images/photo6.jpg" alt="Food platter">
+            <img src="images/photo7.jpg" alt="Earphones">
+            <img src="images/photo8.jpg" alt="Cosmetic jar">
+            <img src="images/photo9.jpg" alt="Muffins tray">
+            <img src="images/photo10.jpg" alt="Blue beer bottle">
+        </div>
+    </main>
+</body>
+</html>
