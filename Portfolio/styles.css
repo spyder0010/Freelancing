@@ -38,8 +38,8 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #787876;
-    font-size: 18px;
-    font-weight: 550;
+    font-size: 22px;
+    font-weight: 500;
     
 }
 
@@ -65,7 +65,7 @@ nav ul li a:hover{
 }
 
 .details {
-    font-size: 15px;
+    font-size: 17px;
 
 }
 
